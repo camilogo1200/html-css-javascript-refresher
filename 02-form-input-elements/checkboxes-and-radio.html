@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Sandbox</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Favorite Programming language</legend>
+        <div class="">
+            <input checked id="java" name="java" type="checkbox" value="java"/>
+            <label for="java">Java</label>
+        </div>
+        <div class="">
+            <input id="python" name="python" type="checkbox" value="python"/>
+            <label for="python">Python</label>
+        </div>
+        <div class="">
+            <input id="go" name="go" type="checkbox" value="go"/>
+            <label for="go">Go (Golang)</label>
+        </div>
+        <div class="">
+            <input disabled id="csharp" name="csharp" type="checkbox" value="csharp"/>
+            <label for="csharp">C#</label>
+        </div>
+    </fieldset>
+</form>
+
+<br>
+<!--A radio group is defined by giving each of radio buttons in the group the same name. 
+Once a radio group is established, selecting any radio button in that group automatically
+deselects any currently-selected radio button in the same group.-->
+<h2>Product size</h2>
+<fieldset>
+    <legend>Select product size</legend>
+    <form action="">
+        <div class="">
+            <input id="x-small" name="size" type="radio">
+            <label for="x-small">X-Small</label>
+        </div>
+        <div class="">
+            <input id="small" name="size" type="radio">
+            <label for="small">Small</label>
+        </div>
+        <div class="">
+            <input id="medium" name="size" type="radio">
+            <label for="medium">Medium</label>
+        </div>
+        <div class="">
+            <input checked id="large" name="size" type="radio">
+            <label for="large">Large</label>
+        </div>
+    </form>
+</fieldset>
+
+
+</body>
+</html>
