@@ -1,0 +1,50 @@
+html {
+    border: 3px solid rebeccapurple;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a {
+    color: #000080;
+    text-decoration: none;
+}
+
+/* Class Selectors*/
+.sporty {
+    color: #C00000;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.casual {
+    color: blue;
+}
+
+.formal {
+    color: saddlebrown;
+}
+
+/* Id Selectors*/
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 200px;
+}
+
+/*Multiple Style selectors*/
+
+.sporty,
+.casual {
+    font-size: 35px;
+}
+
+/*Descendent Styles*/
+#container p {
+    color: #b3d4fc;
+}

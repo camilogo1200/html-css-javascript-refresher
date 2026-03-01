@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apartment Search</title>
+</head>
+<body>
+<h1>Apartment Search</h1>
+<br>
+<br>
+<div>
+    <form action="/api/submit">
+        <div class="">
+            <label for="location">Location: </label>
+            <input type="text" name="location" id="location">
+        </div>
+        <div class="">
+            <label for="price">Monthly Price: </label>
+            <input type="range" name="price" id="price">
+        </div>
+        <div class="">
+            <label for="bedrooms">Number of bedrooms: </label>
+            <input type="number" name="bedrooms" id="bedrooms">
+        </div>
+        <div class="">
+            <label for="bathrooms">Number of bathrooms: </label>
+            <input type="text" name="bathrooms" id="bathrooms">
+        </div>
+        <div class="">
+            <label for="pets-allowed">Pets Allowed: </label>
+            <input type="checkbox" name="pets-allowed" id="pets-allowed">
+        </div>
+        <div class="">
+            <label for="date-available">Date Available: </label>
+            <input type="date" name="date-available" id="date-available">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

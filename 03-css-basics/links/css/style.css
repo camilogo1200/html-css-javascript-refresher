@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+a:hover{
+    color: salmon;
+}
+
+a:active{
+    background: rebeccapurple;
+}
+a:focus{
+    background: #1CB5E0;
+}
+a:visited{
+    color: darkviolet;
+}
