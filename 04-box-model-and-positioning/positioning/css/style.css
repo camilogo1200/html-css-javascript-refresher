@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: mediumpurple;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    position: static;
+    left: 50px;
+    /*not working on static*/
+}
+
+.box-2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.box-3 {
+    position: fixed;
+    top: 0;
+    right: 0px;
+}
+
+.box-4 {
+    position: sticky;
+    top: 20px;
+}
+
+.box-5 {
+    position: relative;
+    width: 650px;
+    height: 650px;
+}
+
+.box-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,36 @@
+/*Universal selector*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Fira Sans", 'Arial', sans-serif;
+    line-height: 1;
+}
+
+.box{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border: 8px solid limegreen;
+    margin: 20px;
+}
+
+.box-1{
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    margin: 100px auto;
+}
+
+.box-2{
+    width: 50%;
+    border-radius: 16px;
+}
+
+.box-3{
+    max-width: 800px;
+    border-top-left-radius: 16px;
+}
