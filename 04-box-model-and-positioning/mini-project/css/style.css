@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    color: white;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background: #353e4e;
+    border-radius: 5px;
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.container h1 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.container p {
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#task {
+    border: none;
+    padding: 15px 10px;
+    width: 100%;
+    font-size: large;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.container .submit {
+    background-color: coral;
+    color: white;
+    width: 100%;
+    font-size: large;
+    padding: 15px 10px;
+}
